@@ -37,6 +37,7 @@ jobs:
 
         cd ./builder
         python ./build.py -c "../conf.py"
+        
 
         # 保存图片缓存
         cd ..
